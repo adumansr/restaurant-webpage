@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body,html {
+  height: 100%;
+}
+:root {
+  --textColor: #414344;
+}
+body {
+
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ebfbee;
+  background-color: #e9ecef;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),url(./img/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  padding: 0 9.6rem;
+ 
+  
+}
+.logo {
+  font-size: 5rem;
+  font-weight: 700;
+  color: ;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.2rem;
+}
+.menu--container {
+  display: flex;
+  gap: 4.8rem;
+}
+.menu--item {
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
+  transition: all 0.2s;
+  
+}
+li:hover {
+  transform: scale(1.2);
+  color: #b2f2bb ;
+  
+}
+
+.section {
+  width: 100rem;
+  margin: 3.2rem auto;
+}
+
+.about--header{
+  font-size: 4rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.about--text {
+  line-height: 1.2;
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+.active {
+  transform: scale(1.2);
+  color: #b2f2bb ;
+}
+
+.food--card img {
+  width: 60px;
+
+}
